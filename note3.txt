@@ -7,3 +7,10 @@ framework: AngularJS
 remtangjs https://github.com/Candy128x/AnguJS
 brnyangjs
 brnyangjso
+
+---
+
+ref
+File: Sample.html
+Tutorials Point
+YT: https://youtu.be/QoptnVCQHsU
