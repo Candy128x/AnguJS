@@ -6,3 +6,4 @@
 - demo1.html
 - form1.html
 - expression-1.html
+- directives.html
