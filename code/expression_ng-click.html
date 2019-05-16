@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Expression-1</title>
+	<meta charset="utf-8" />
+	<script src="static/js/angular.js" type="text/javascript"></script>
+</head>
+<body>
+
+
+<div ng-app="">
+
+<form>
+	FirstName:
+	<input type="text" ng-model="FirstNameModel"/><br><br>
+	LastName:
+	<input type="text" ng-model="LastNameModel"/><br><br>
+	QuantityName:
+	<input type="number" ng-model="QuantityModel"/><br><br>
+	CostName:
+	<input type="number" ng-model="CostNameModel"/><br><br>
+
+	<input type="button" value="Click Here" 
+		ng-click="message = FirstNameModel + ' ' + LastNameModel + ' has to pay ' + QuantityModel * CostNameModel"/><br>
+</form>
+
+<div>
+	<br>
+	{{ message }}
+</div>
+
+</div>
+
+</body>
+</html>
