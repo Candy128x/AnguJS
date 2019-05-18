@@ -22,3 +22,9 @@ AngularJS Concept
 ## output of file: controller-1.html
 	- Render message from controller..
 <kbd><img src="/imgs-readme/controller_v1-2.png" alt="alternative_v2-2" title="Render message from controller.."></img></kbd>
+
+
+---
+## output of file: filters.html (gif img)
+	- filter: lowecase, uppercase, orderBy, currency..
+<kbd><img src="/imgs-readme/filters_v1-1.gif" alt="alternative_v1-1" title=""></img></kbd>

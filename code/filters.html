@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters-1</title>
+	<meta charset="utf-8" />
+	<script src="static/js/angular.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		var app = angular.module("MyModule", []);
+
+		app.controller("MyController", function ($scope) {
+			$scope.message = "AngularJS Filters";
+		});
+
+		app.controller("DataController", function ($scope) {
+			var listEmployees = [
+				{firstName:"Ganesh", gender:"male", city:"mumbai", balance:2000},
+				{firstName:"Pawan", gender:"male", city:"gandhinagar", balance:2100},
+				{firstName:"Shiv", gender:"male", city:"Jammu", balance:3000},
+				{firstName:"Parvati", gender:"female", city:"Srinagar	", balance:5000},
+				{firstName:"Dev", gender:"male", city:"mumbai", balance:3500}
+			];
+			$scope.persons = listEmployees;
+		});
+	</script>
+
+</head>
+<body ng-app="MyModule">
+<div ng-controller="DataController">
+
+<h1>AngularJs Application - Filters</h1>
+
+<input type="text" ng-model="SearchText" placeholder="SearchText.." /><br><br>
+<table style="width: 500px; border: 2px solid black;">
+<thead>
+	<tr style="text-align: left">
+		<th>First Name</th>
+		<th>Gender</th>
+		<th>City</th>
+		<th>Balance</th>
+	</tr>
+</thead>
+<tbody>
+	<tr ng-repeat="person in persons | filter: SearchText | orderBy: '-balance'">
+		<td>{{ person.firstName | uppercase }}</td>
+		<td>{{ person.gender | lowercase }}</td>
+		<td>{{ person.city | uppercase }}</td>
+		<td>{{ person.balance | currency:'₹ ' }}</td>
+	</tr>
+</tbody>
+	
+</table>
+
+
+</div>
+</body>
+</html>

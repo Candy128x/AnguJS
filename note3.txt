@@ -17,3 +17,17 @@ brnyangjso
 - ng-model − This directive binds the values of AngularJS application data to HTML input controls.
 
 - ng-bind − This directive binds the AngularJS Application data to HTML tags.
+
+
+---
+### filters
+
+- uppercase: Convert to uppercase
+
+- lowecase: Convert to lowercase
+
+- currency: By default '$', customize with `currency: '₹'`.
+
+- orderBy: 
+	- Eg: 	asc: orderBy: 'balance'
+			desc: orderBy: '-balance'

@@ -8,7 +8,9 @@
 - expression-1.html
 - directives.html
 - expression_ng-click.html
+- filters.html
+
 
 [controllers dir]
-- controller.html
 - static/js/main.js
+- controller.html
