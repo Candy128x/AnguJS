@@ -11,6 +11,7 @@
 - expression_ng-click.html
 - filters.html
 - form-validation-1.html
+- service-1.html
 
 
 [controllers dir]

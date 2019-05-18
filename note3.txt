@@ -29,5 +29,12 @@ brnyangjso
 - currency: By default '$', customize with `currency: '₹'`.
 
 - orderBy: 
-	- Eg: 	asc: orderBy: 'balance'
-			desc: orderBy: '-balance'
+	- Eg:	asc: orderBy: 'balance'
+		desc: orderBy: '-balance'
+
+
+---
+### Services
+- There are two ways to create services in AngularJS..
+	1) Factory method
+	2) Service method

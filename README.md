@@ -42,4 +42,9 @@ AngularJS Concept
 ---
 ## output of file: views/index1.html
 	- view diffrent content from controller according to click on diff link..
-<kbd><img src="/imgs-readme/views_index1_v1-1.gif" alt="alternative_v1-1" title=""></img></kbd>
+<kbd><img src="/imgs-readme/views_index1_v1-1.gif" alt="alternative_v1-1" title="on cick home & contact us link render diffrent content"></img></kbd>
+
+---
+## output of file: views/service-1_v1-1.html
+	- introduce factory & services..
+<kbd><img src="/imgs-readme/service-1_v1-1.gif" alt="alternative_v1-1" title=""></img></kbd>
