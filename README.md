@@ -28,3 +28,8 @@ AngularJS Concept
 ## output of file: filters.html (gif img)
 	- filter: lowecase, uppercase, orderBy, currency..
 <kbd><img src="/imgs-readme/filters_v1-1.gif" alt="alternative_v1-1" title=""></img></kbd>
+
+---
+## output of file: form-validation-1.html (gif img)
+	- validate: required, min, max, email.. validation.. 
+<kbd><img src="/imgs-readme/form-validation-1_v1-1.gif" alt="alternative_v1-1" title=""></img></kbd>

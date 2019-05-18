@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form-Validation-1</title>
+	<meta charset="utf-8" />
+
+	<style type="text/css">
+	td{
+		padding: 5px;
+	}		
+	</style>
+
+	<script src="static/js/angular.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var app = angular.module("MyModule", []);
+
+		app.controller("MyController", function ($scope) {
+			$scope.message = "Form-Validation-1";
+		});
+
+		app.controller("FormController", function ($scope) {
+			$scope.reset = function () {
+				$scope.FirstNameModel = "";
+				$scope.LastNameModel = "";
+				$scope.EmailModel = "";
+			}
+		});
+	</script>
+</head>
+<body ng-app="MyModule" ng-controller="FormController">
+
+<h1>AngularJS Application - <span ng-controller="MyController">{{ message }}</span></h1>
+
+<form name="SimpleForm">
+<table>
+	<tr>
+		<td>Enter First Name:</td>
+		<td>
+		<input type="text" name="firstname" ng-model="FirstNameModel" ng-minlength="3" ng-maxlength="32" placeholder="first name.." required />
+		<span style="color: red;">
+			<span ng-show="SimpleForm.firstname.$error.required">
+				* First Name is Required!
+			</span>
+			<span ng-show="SimpleForm.firstname.$error.minlength">
+				First Name is too Short!
+			</span>
+			<span ng-show="SimpleForm.firstname.$error.maxlength">
+				First Name is too Long!
+			</span>
+		</span>
+		</td>
+	</tr>
+	<tr>
+		<td>Enter Last Name:</td>
+		<td>
+		<input type="text" name="lastname" ng-model="LastNameModel" ng-maxlength="32" placeholder="last name.." required />
+		<span style="color: red;">
+			<span ng-show="SimpleForm.lastname.$error.required">
+				* Last Name is Required!
+			</span>
+			<span ng-show="SimpleForm.lastname.$error.maxlength">
+				Last Name is too Long!
+			</span>
+		</span>
+		</td>
+	</tr>
+		<tr>
+		<td>Enter eMail:</td>
+		<td>
+		<input type="email" name="email" ng-model="EmailModel" placeholder="abc@xyz.com" required />
+		<span style="color: red;">
+			<span ng-show="SimpleForm.email.$error.required">
+				* eMail ID is Required!
+			</span>
+			<span ng-show="SimpleForm.email.$error.email">
+				Invalid eMail ID!
+			</span>
+		</span>
+		</td>
+	</tr>
+
+	<tr>
+		<td></td>
+		<td>
+			<button ng-click="reset()">Reset</button>
+			<button ng-disabled="SimpleForm.firstname.$invalid || SimpleForm.lastname.$invalid || SimpleForm.email.$invalid" ng-click="submit()">Submit</button>
+		</td>
+	</tr>
+</table>
+</form>
+
+</body>
+</html>
