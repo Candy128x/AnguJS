@@ -13,6 +13,8 @@
 - form-validation-1.html
 - service-1.html
 - dependency-injection-1.html
+- custom-directives-1.html
+- internationalization-1.html 
 
 
 [controllers dir]

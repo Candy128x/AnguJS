@@ -43,11 +43,16 @@ AngularJS Concept
 <kbd><img src="/imgs-readme/views_index1_v1-1.gif" alt="alternative_v1-1" title="on cick home & contact us link render diffrent content"></img></kbd>
 
 ---
-## output of file: views/service-1_v1-1.html (gif img)
+## output of file: service-1_v1-1.html (gif img)
 	- introduce factory & services..
 <kbd><img src="/imgs-readme/service-1_v1-1.gif" alt="alternative_v1-1" title=""></img></kbd>
 
 ---
-## output of file: views/dependency-injection-1_v1-1.html (gif img)
-	- introduce factory & services..
+## output of file: dependency-injection-1_v1-1.html (gif img)
 <kbd><img src="/imgs-readme/dependency-injection-1_v1-1.gif" alt="alternative_v1-1" title=""></img></kbd>
+
+---
+## output of file: internationalization-1.html (gif img)
+- First seen default page, Second one (with '₹' symbol) is configure/implimented with angular-locale_hi-in.js
+
+<kbd><img src="/imgs-readme/internationalization-1_v1-2.gif" alt="alternative_v1-1" title=""></img></kbd>

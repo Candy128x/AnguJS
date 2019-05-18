@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Internationalization-1</title>
+	<meta charset="utf-8" />
+	<script src="static/js/angular.js" type="text/javascript"></script>
+	<script src="static/js/angular-locale_hi-in.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var mainApp = angular.module("mainApp", []);
+		mainApp.controller('mainController', function($scope) {
+			$scope.name = "Dev Kumar";
+			$scope.dob = new Date();
+			$scope.age = 123.45;
+			$scope.balance = 999.45;
+		});
+	</script>
+</head>
+<body>
+
+<h1>AngularJS Application - internationalization-1</h1>	
+
+<div ng-app="mainApp" ng-controller="mainController">
+	{{ name }} <br><br>
+	{{ dob | date }} <br><br>
+	{{ age | number }} <br><br>
+	{{ balance | currency }} <br><br>
+</div>
+
+</body>
+</html>
