@@ -14,6 +14,6 @@ AngularJS Concept
 
 
 ---
-## output of file: directives-1.html
+## output of file: directives-1.html (gif img)
 	- It's display text, Whatever you entered in input feild..
 <kbd><img src="/imgs-readme/directives_v2-2.gif" alt="directives_v2-2" title="It's display text, Whatever you entered in input feild.."></img></kbd>
