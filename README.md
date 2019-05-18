@@ -12,7 +12,6 @@ AngularJS Concept
 	- arithmetic operation..
 <kbd><img src="/imgs-readme/expression-1_v1-1.png" alt="expression-1_v1-1" title="arithmetic operation using angularjs.."></img></kbd>
 
-
 ---
 ## output of file: directives-1.html (gif img)
 	- It's display text, Whatever you entered in input feild..
@@ -22,7 +21,6 @@ AngularJS Concept
 ## output of file: controller-1.html
 	- Render message from controller..
 <kbd><img src="/imgs-readme/controller_v1-2.png" alt="alternative_v2-2" title="Render message from controller.."></img></kbd>
-
 
 ---
 ## output of file: filters.html (gif img)
@@ -40,11 +38,16 @@ AngularJS Concept
 <kbd><img src="/imgs-readme/includes-1_v1-1.png" alt="alternative_v1-1" title=""></img></kbd>
 
 ---
-## output of file: views/index1.html
+## output of file: views/index1.html (gif img)
 	- view diffrent content from controller according to click on diff link..
 <kbd><img src="/imgs-readme/views_index1_v1-1.gif" alt="alternative_v1-1" title="on cick home & contact us link render diffrent content"></img></kbd>
 
 ---
-## output of file: views/service-1_v1-1.html
+## output of file: views/service-1_v1-1.html (gif img)
 	- introduce factory & services..
 <kbd><img src="/imgs-readme/service-1_v1-1.gif" alt="alternative_v1-1" title=""></img></kbd>
+
+---
+## output of file: views/dependency-injection-1_v1-1.html (gif img)
+	- introduce factory & services..
+<kbd><img src="/imgs-readme/dependency-injection-1_v1-1.gif" alt="alternative_v1-1" title=""></img></kbd>

@@ -12,6 +12,7 @@
 - filters.html
 - form-validation-1.html
 - service-1.html
+- dependency-injection-1.html
 
 
 [controllers dir]
