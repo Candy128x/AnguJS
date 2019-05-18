@@ -33,3 +33,8 @@ AngularJS Concept
 ## output of file: form-validation-1.html (gif img)
 	- validate: required, min, max, email.. validation.. 
 <kbd><img src="/imgs-readme/form-validation-1_v1-1.gif" alt="alternative_v1-1" title=""></img></kbd>
+
+---
+## output of file: includes/index1.html
+	- view content of two diffrent file in single file..
+<kbd><img src="/imgs-readme/includes-1_v1-1.png" alt="alternative_v1-1" title=""></img></kbd>
