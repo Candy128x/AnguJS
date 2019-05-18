@@ -38,3 +38,8 @@ AngularJS Concept
 ## output of file: includes/index1.html
 	- view content of two diffrent file in single file..
 <kbd><img src="/imgs-readme/includes-1_v1-1.png" alt="alternative_v1-1" title=""></img></kbd>
+
+---
+## output of file: views/index1.html
+	- view diffrent content from controller according to click on diff link..
+<kbd><img src="/imgs-readme/views_index1_v1-1.gif" alt="alternative_v1-1" title=""></img></kbd>

@@ -16,3 +16,16 @@
 [controllers dir]
 - static/js/main.js
 - controller.html
+
+
+[includes dir]
+- index1.html
+- page1.html
+- page2.html
+
+
+[views dir]
+- index1.html
+- index2.html
+- template/home.html
+- template/contactus.html
